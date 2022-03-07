@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Hide canvas by default, it is not needed outside immersive-ar */
+canvas {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+/* Override default AR button styles to make it look better on a white background */
+#ARButton {
+  border: 1px solid gray !important;
+  color: black !important;
+}
